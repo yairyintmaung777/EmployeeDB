@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/etname"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvSelectDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_department" />
+
+    <Spinner
+        android:id="@+id/spinnerDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/departments" />
+
+    <EditText
+        android:id="@+id/etSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/etsalary"
+        android:inputType="number|textPersonName|numberDecimal" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_employee" />
+
+    <Button
+        android:id="@+id/btView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_employee" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Employee DB</string>
+    <string name="title">Add A New Employee</string>
+    <string name="etname">etName</string>
+    <string name="select_department">Select Department</string>
+    <string name="view_employee">VIEW EMPLOYEE</string>
+    <string name="add_employee">ADD EMPLOYEE</string>
+    <string name="etsalary">etSalary</string>
+    <array name="departments">
+        <item>Technical</item>
+        <item>Support</item>
+        <item>Research</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+
+    </array>
+
+</resources>
